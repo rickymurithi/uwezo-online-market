@@ -64,3 +64,61 @@ footer{
     height: 300px;
     padding: 50px;
 }
+body{
+    background-color: aqua;
+}
+.sign-up-box{
+ width: 400px;
+ height: 640px;
+ margin: auto;
+ border-radius: 20px;
+}
+h2{
+    text-align: center;
+    padding-top: 15px;
+}
+h6{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+form input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border: 1px solid red;
+    border-radius: 7px;
+    outline: none;
+}
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    background-color:green;
+
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px;  
+}
+.acco{
+text-align: center;
+color: white;
+font-size: 16px;
+margin-top: 10px;
+}
+.acco a{
+    
+}
