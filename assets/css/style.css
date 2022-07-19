@@ -33,6 +33,18 @@ header{
     justify-content: space-evenly;
 }
 
+.uwezo{
+    display: flex;
+}
+
+.row1{
+    display: flex;
+}
+
+.row2{
+    display: flex;
+}
+
 .Footer{
     display: flex;
     flex-direction: column;
@@ -63,4 +75,19 @@ footer{
     background-color: #0000FF;
     height: 300px;
     padding: 50px;
+}
+
+.footerstart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerend{
+    align-items: center;
+}
+
+.feedback{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
 }
