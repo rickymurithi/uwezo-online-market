@@ -1,10 +1,1 @@
-function check() {
-    document.getElementById("checkbox").checked = true;
-}
-function uncheck() {
-    document.getElementById("checkbox").checked = false;
-    console.log("checkbox")
-}
-function login-box(){
-    document.getElementById("")
-}
+alert();
