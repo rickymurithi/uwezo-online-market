@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 20px;
+    margin: ;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: proxima-nova, Proxima Nova, sans-serif;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 300;
 }
 
@@ -27,7 +27,7 @@ header {
     box-sizing: border-box;
     border-radius: 50px;
     background-color: #0000FF;
-    align-items: center;
+    padding: 20px;
 }
 
 .navigation {
@@ -57,8 +57,9 @@ h1 {
 
 .intro {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 100%;
+    margin: 50px;
 }
 
 
@@ -71,15 +72,15 @@ h1 {
     justify-content: space-evenly;
     border: 2px solid white;
     box-shadow: 5px 10px 2px whitesmoke;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 
 /* Section 2 */
 .uwezo {
     display: flex;
-    margin-bottom: 100px;
-    justify-content: space-around;
+    margin-bottom: 50px;
+    justify-content: space-between;
 }
 
 .content{
@@ -110,8 +111,7 @@ h1 {
 .row {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
-    margin-bottom: 150px;
+    margin: 50px;
 }
 
 
@@ -131,11 +131,13 @@ h1 {
     justify-content: space-evenly;
     border: 2px solid white;
     box-shadow: 5px 10px 2px whitesmoke;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .rating {
     color: #0000FF;
+    font-size: 40px;
+    text-align: justify;
 }
 
 .feedback {
@@ -179,6 +181,7 @@ h1 {
 
 footer {
     background-color: #0000FF;
+    padding: 50px;
 }
 
 .footerstart {
