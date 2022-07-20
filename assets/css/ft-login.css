@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box
+}
 body{
     background-color: aqua;
 }
@@ -67,7 +70,9 @@ input type > {
 #submit-btn{
     padding-top: 20px;
     border-radius: 20px;
-    width: 336px;
+    width: 500px;
+    height: 200%;
+
 
 }
 #login-btn{
