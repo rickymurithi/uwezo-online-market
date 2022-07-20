@@ -32,7 +32,7 @@ form input{
     width: 100%;
     padding: 10px;
     border: none;
-    border: 1px solid red;
+    border: 1px solid gray;
     border-radius: 7px;
     outline: none;
 }
@@ -57,7 +57,7 @@ font-size: 16px;
 margin-top: 10px;
 }
 .acco a{
-    color: red;
+    color: blue;
 }
 .login-box{
     width: 360px;
