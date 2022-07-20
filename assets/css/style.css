@@ -1,8 +1,12 @@
-*{
+* {
     padding: 0;
-    margin: 0;
+    margin: 20px;
+    font-style: poppin;
+    font-size: 28px;
 }
-header{
+
+
+header {
     display: flex;
     justify-content: space-evenly;
     background-color: white;
@@ -10,84 +14,157 @@ header{
     border: 2px solid white;
     box-shadow: 2px 2px 2px grey;
 }
-.navigation{
+
+.logo{
+    box-sizing: border-box;
+    border-radius: 50px;
+background-color: black;
+align-items: center;
+}
+
+.navigation {
     display: flex;
     color: white;
     justify-content: space-around;
     padding: 50px;
     list-style: none;
 }
-.navigation a{
+
+.navigation a {
     justify-content: space-between;
     text-indent: 50px;
 }
-.intro{
-    display: flex;
+
+h2{
+    color: #0000FF;
+    font-size: 35px;
 }
-.stats{
+
+.intro {
     display: flex;
-    text-align: center;
-    box-sizing: border-box;
-    box-shadow: 5px grey;
-    padding: 30px 60px 10px;
+    justify-content: space-around;
+}
+
+.stats {
+    margin-left: 400px;
+    margin-right: 400px;
+    list-style: none;
+    display: flex;
+    position: relative;
     justify-content: space-evenly;
+    border: 5px solid white;
+    box-shadow: 5px 5px 2px grey;
+    margin-bottom: 100px;
 }
 
-.uwezo{
+.uwezo {
     display: flex;
+    margin-bottom: 100px;
+    justify-content: space-around;
 }
 
-.row1{
+.shop{
     display: flex;
+    justify-content: space-around;
 }
 
-.row2{
+.ticks img{
+    height: 40px;
+}
+
+.row {
     display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-bottom: 150px;
 }
 
-.Footer{
+.images {
+    justify-content: space-between;
+}
+
+.more{
+    text-align: right;
+    margin-right: 50px;
+}
+
+.customers{
+    text-align: center;
+}
+
+.rating{
+    color: #0000FF;
+}
+
+.subscribe{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.Footer {
     display: flex;
     flex-direction: column;
 }
-.Footer1{
+
+.Footer1 {
     padding-left: 10px;
 }
-footer .f{
+
+footer .f {
     display: flex;
     justify-content: space-between;
 }
-.f .Footer{
+
+.f .Footer {
     padding-right: 60px;
     font-size: 20px;
 }
+
 .f {
     font-size: 20px;
 }
-.Footer1 .icons{
-    padding-top: 40px;
-}
-footer .copyright{
-    text-align: center;
-    padding-top: 100px;
-    font-size: 20px;
-}
-footer{
+
+
+
+
+
+footer {
     background-color: #0000FF;
-    height: 300px;
-    padding: 50px;
 }
 
-.footerstart{
+.footerstart {
     display: flex;
     justify-content: space-between;
 }
 
-.footerend{
+/* .footerend {
     align-items: center;
-}
+} */
 
-.feedback{
+.feedback {
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
+    padding: 20px;
+    margin: 50px;
+}
+
+.feeds{
+    box-sizing: border-box;
+    border: 2px solid ;
+}
+.feedback img{
+    border-radius: 20px;
+}
+.copyright{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    background-color: #0000FF;
+    color: white;
+    padding: 10px;
 }
