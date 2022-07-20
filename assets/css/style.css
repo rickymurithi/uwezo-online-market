@@ -1,8 +1,20 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-header{
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: proxima-nova, Proxima Nova, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+/* The header section */
+
+header {
     display: flex;
     justify-content: space-evenly;
     background-color: white;
@@ -10,57 +22,200 @@ header{
     border: 2px solid white;
     box-shadow: 2px 2px 2px grey;
 }
-.navigation{
+
+.logo {
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #0000FF;
+    padding: 20px;
+}
+
+.navigation {
     display: flex;
     color: white;
     justify-content: space-around;
     padding: 50px;
     list-style: none;
 }
-.navigation a{
+
+.navigation a {
     justify-content: space-between;
     text-indent: 50px;
-}
-.intro{
-    display: flex;
-}
-.stats{
-    display: flex;
-    text-align: center;
-    box-sizing: border-box;
-    box-shadow: 5px grey;
-    padding: 30px 60px 10px;
-    justify-content: space-evenly;
+    text-decoration: none;
 }
 
-.Footer{
+.started {
+    margin-top: 50px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+}
+
+/* Section 1 */
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 50px;
+}
+
+
+.stats {
+    margin-left: 400px;
+    margin-right: 400px;
+    list-style: none;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    box-shadow: 5px 10px 2px whitesmoke;
+    margin-bottom: 50px;
+}
+
+
+/* Section 2 */
+.uwezo {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.content{
+    margin-left: 50px;
+}
+
+.shop {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.ticks img {
+    height: 40px;
+}
+
+.tick {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+/* Section 3 */
+.search {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+
+.more {
+    text-align: right;
+    margin-right: 50px;
+}
+
+
+/* section 4 */
+.customers {
+    margin-left: 600px;
+    margin-right: 600px;
+    list-style: none;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    box-shadow: 5px 10px 2px whitesmoke;
+    margin-bottom: 50px;
+}
+
+.rating {
+    color: #0000FF;
+    font-size: 40px;
+    text-align: justify;
+}
+
+.feedback {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.feeds {
+    box-sizing: border-box;
+    border: 2px solid white;
+    box-shadow: 5px 5px 2px whitesmoke;
+
+}
+
+.feedback img {
+    border-radius: 20px;
+    margin-top: 0px;
+}
+
+.feed {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+    padding-top: 50px;
+}
+
+.subscribe {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Section 5 */
+
+.Footer {
     display: flex;
     flex-direction: column;
 }
-.Footer1{
-    padding-left: 10px;
+
+
+footer {
+    background-color: #0000FF;
+    padding: 50px;
 }
-footer .f{
+
+.footerstart {
     display: flex;
     justify-content: space-between;
 }
-.f .Footer{
-    padding-right: 60px;
-    font-size: 20px;
-}
-.f {
-    font-size: 20px;
-}
-.Footer1 .icons{
-    padding-top: 40px;
-}
-footer .copyright{
+
+
+
+.copyright {
     text-align: center;
-    padding-top: 100px;
-    font-size: 20px;
 }
-footer{
+
+/* body styling */
+
+ul {
+    list-style: none;
+}
+
+input{
+    padding: 15px;
+}
+
+button {
     background-color: #0000FF;
-    height: 300px;
-    padding: 50px;
+    color: white;
+    padding: 15px;
 }
+
+h2 {
+    color: #0000FF;
+    font-size: 30px;
+}
+
+
+
+
