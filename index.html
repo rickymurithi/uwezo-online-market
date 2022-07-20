@@ -4,25 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum scale=1.0, use r-scalable=no">
     <title>Uwezo online market</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <h2>Uwezo</h2>
-            <h2>Online market</h2>
+            <h1>UWEZO</h>
+                <h1>Online market</h1>
         </div>
         <div class="navigation">
-            <a href="Home">Home</a>
+            <a href="./index.html">Home</a>
             <a href="Products">Products</a>
             <a href="Contacts">Contacts</a>
             <a href="Account">Account</a>
         </div>
-        <div>
+        <div class="started">
             <button type="button">GET STARTED</button>
         </div>
     </header>
@@ -80,17 +79,24 @@
         </div>
         <div class="ticks">
             <h4>Why shop with Uwezo</h4>
-            <img src="./assets/images/tick2.jpeg"><span>Shop online at your own convinience</p>
-                <img src="./assets/images/tick2.jpeg"><span>Reliable delivery services countrywide</p>
-                    <img src="./assets/images/tick2.jpeg"><span>Tech support for all electrical purchases</span>
+            <div class="tick">
+                <img src="./assets/images/tick2.jpeg">
+                <label for="Online shopping">Shop online at your own convinience</label>
+            </div>
+            <div class="tick">
+                <img src="./assets/images/tick2.jpeg">
+                <label for="delivery services">Reliable delivery services countrywide</label>
+            </div>
+            <div class="tick">
+                <img src="./assets/images/tick2.jpeg">
+                <label for="Tech support">Tech support for all electrical purchases</label>
+            </div>
         </div>
     </div>
     <div class="search">
         <h3>Want to Buy on Uwezo?</h3>
         <input type="text" placeholder="Search products by name and category">
-        <div class="search-btn">
-            <button id="search-btn" onclick="ProductSearch()">Search</button>
-        </div>
+        <button id="search-btn" onclick="ProductSearch()">Search</button>
     </div>
     <div class="images">
         <div class="row">
@@ -141,7 +147,10 @@
             <p>shop for all your electrical</p>
             <p>appliances from the comfort</p>
             <p>of your home."</p>
+            <div class="feed">
             <img src="./assets/images/girl laptop.jpeg" height="50px" alt="Carah Si">
+            <label for="">Carah Si</label>
+            </div>
         </div>
         <div class="feeds">
             <div class="rating">
@@ -156,7 +165,10 @@
             <p>The camera I bought is still</p>
             <p>as good as new, two</p>
             <p>years down the line."</p>
+            <div class="feed">
             <img src="./assets/images/man camera.jpeg" height="50px" alt="Erick Gilbert">
+            <label for="">Erick Gilbert</label>
+            </div>
         </div>
         <div class="feeds">
             <div class="rating">
@@ -169,7 +181,10 @@
             <p>"The delivery was timely</p>
             <p>and my accessories arrived</p>
             <p>in their best condition."</p>
-            <img src="./assets/images/man electronics.jpeg" height="50px" alt="Harry T">
+            <div class="feed">
+            <img src="./assets/images/man electronics.jpeg" height="50px">
+            <label for="">Harry T</label>
+            </div>
         </div>
     </div>
     <div class="subscribe">
@@ -181,7 +196,7 @@
 
     <footer>
         <div class="footerstart">
-            <div class="Footer1">
+            <div class="Footer">
                 <div class="footers">
                     <h3>Uwezo Online Market</h3>
                     <p>Connecting buyers to the best</p>

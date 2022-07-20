@@ -1,10 +1,18 @@
 * {
     padding: 0;
     margin: 20px;
-    font-style: poppin;
-    font-size: 28px;
 }
 
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: proxima-nova, Proxima Nova, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* The header section */
 
 header {
     display: flex;
@@ -15,11 +23,11 @@ header {
     box-shadow: 2px 2px 2px grey;
 }
 
-.logo{
+.logo {
     box-sizing: border-box;
     border-radius: 50px;
-background-color: black;
-align-items: center;
+    background-color: #0000FF;
+    align-items: center;
 }
 
 .navigation {
@@ -33,17 +41,26 @@ align-items: center;
 .navigation a {
     justify-content: space-between;
     text-indent: 50px;
+    text-decoration: none;
 }
 
-h2{
-    color: #0000FF;
-    font-size: 35px;
+.started {
+    margin-top: 50px;
 }
+
+h1 {
+    color: white;
+    font-size: 30px;
+}
+
+/* Section 1 */
 
 .intro {
     display: flex;
     justify-content: space-around;
+    max-width: 100%;
 }
+
 
 .stats {
     margin-left: 400px;
@@ -52,24 +69,42 @@ h2{
     display: flex;
     position: relative;
     justify-content: space-evenly;
-    border: 5px solid white;
-    box-shadow: 5px 5px 2px grey;
+    border: 2px solid white;
+    box-shadow: 5px 10px 2px whitesmoke;
     margin-bottom: 100px;
 }
 
+
+/* Section 2 */
 .uwezo {
     display: flex;
     margin-bottom: 100px;
     justify-content: space-around;
 }
 
-.shop{
-    display: flex;
-    justify-content: space-around;
+.content{
+    margin-left: 50px;
 }
 
-.ticks img{
+.shop {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.ticks img {
     height: 40px;
+}
+
+.tick {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+/* Section 3 */
+.search {
+    text-align: center;
 }
 
 .row {
@@ -79,52 +114,67 @@ h2{
     margin-bottom: 150px;
 }
 
-.images {
-    justify-content: space-between;
-}
 
-.more{
+.more {
     text-align: right;
     margin-right: 50px;
 }
 
-.customers{
-    text-align: center;
+
+/* section 4 */
+.customers {
+    margin-left: 600px;
+    margin-right: 600px;
+    list-style: none;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    box-shadow: 5px 10px 2px whitesmoke;
+    margin-bottom: 100px;
 }
 
-.rating{
+.rating {
     color: #0000FF;
 }
 
-.subscribe{
+.feedback {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.feeds {
+    box-sizing: border-box;
+    border: 2px solid white;
+    box-shadow: 5px 5px 2px whitesmoke;
+
+}
+
+.feedback img {
+    border-radius: 20px;
+    margin-top: 0px;
+}
+
+.feed {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+    padding-top: 50px;
+}
+
+.subscribe {
     text-align: center;
     margin-bottom: 50px;
 }
+
+/* Section 5 */
+
 .Footer {
     display: flex;
     flex-direction: column;
 }
-
-.Footer1 {
-    padding-left: 10px;
-}
-
-footer .f {
-    display: flex;
-    justify-content: space-between;
-}
-
-.f .Footer {
-    padding-right: 60px;
-    font-size: 20px;
-}
-
-.f {
-    font-size: 20px;
-}
-
-
-
 
 
 footer {
@@ -136,35 +186,33 @@ footer {
     justify-content: space-between;
 }
 
-/* .footerend {
-    align-items: center;
-} */
 
-.feedback {
-    display: flex;
-    box-sizing: border-box;
-    justify-content: space-between;
-    padding: 20px;
-    margin: 50px;
-}
 
-.feeds{
-    box-sizing: border-box;
-    border: 2px solid ;
-}
-.feedback img{
-    border-radius: 20px;
-}
-.copyright{
+.copyright {
     text-align: center;
 }
 
-ul{
+/* body styling */
+
+ul {
     list-style: none;
 }
 
-button{
+input{
+    padding: 15px;
+}
+
+button {
     background-color: #0000FF;
     color: white;
-    padding: 10px;
+    padding: 15px;
 }
+
+h2 {
+    color: #0000FF;
+    font-size: 30px;
+}
+
+
+
+
