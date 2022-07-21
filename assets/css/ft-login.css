@@ -1,8 +1,10 @@
 *{
-    box-sizing: border-box
+   box-sizing: border-box;
+   box-shadow: 10px;
 }
 body{
-    background-color:#ffffff;
+    background-color: #2e74fc;
+    color: #fff;
 }
 .sign-up-box{
  width: 400px;
@@ -35,6 +37,7 @@ form input{
     border: 1px solid gray;
     border-radius: 7px;
     outline: none;
+    box-shadow: 10px;
 }
 input[type="button"]{
     width: 320px;
@@ -42,7 +45,7 @@ input[type="button"]{
     margin-top: 20px;
     border: none;
     color: white;
-    background-color:green;
+    background-color:gray;
 
 }
 p{
@@ -57,14 +60,15 @@ font-size: 16px;
 margin-top: 10px;
 }
 .acco a{
-    color: blue;
+    color: #fff;
+    
 }
 .login-box{
     width: 360px;
     height: 280px;
     margin: auto;
 }
-input type > {
+input type >{
     margin-bottom: 15px; 
 }
 #submit-btn{
@@ -72,8 +76,6 @@ input type > {
     border-radius: 20px;
     width: 500px;
     height: 200%;
-
-
 }
 #login-btn{
     padding-top: 20px;
@@ -82,11 +84,4 @@ input type > {
 #forgot-btn{
     padding-top: 20px;
     border-radius: 20px;
-}
-.forpass{
-    background-color: #2e74fc;
-}
-.lgnbox{
-    background-color: #2e74fc;
-    color: #ffffff;
 }
