@@ -2,7 +2,7 @@
     box-sizing: border-box
 }
 body{
-    background-color: aqua;
+    background-color:#ffffff;
 }
 .sign-up-box{
  width: 400px;
@@ -78,4 +78,15 @@ input type > {
 #login-btn{
     padding-top: 20px;
     border-radius: 20px;
+}
+#forgot-btn{
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.forpass{
+    background-color: #2e74fc;
+}
+.lgnbox{
+    background-color: #2e74fc;
+    color: #ffffff;
 }
