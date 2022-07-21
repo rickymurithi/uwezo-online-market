@@ -12,6 +12,18 @@ body {
     font-weight: 300;
 }
 
+<<<<<<< HEAD
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: proxima-nova, Proxima Nova, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+=======
+>>>>>>> feb70d0839c5da2119812e0b44b118dc2de74e3a
 /* The header section */
 
 header {
@@ -27,7 +39,11 @@ header {
     box-sizing: border-box;
     border-radius: 50px;
     background-color: #0000FF;
+<<<<<<< HEAD
+    padding: 20px;
+=======
     align-items: center;
+>>>>>>> feb70d0839c5da2119812e0b44b118dc2de74e3a
 }
 
 .navigation {
@@ -42,6 +58,7 @@ header {
     justify-content: space-between;
     text-indent: 50px;
     text-decoration: none;
+<<<<<<< HEAD
 }
 
 .started {
@@ -53,12 +70,31 @@ h1 {
     font-size: 30px;
 }
 
+=======
+}
+
+.started {
+    margin-top: 50px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+}
+
+>>>>>>> feb70d0839c5da2119812e0b44b118dc2de74e3a
 /* Section 1 */
 
 .intro {
     display: flex;
+<<<<<<< HEAD
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 50px;
+=======
     justify-content: space-around;
     max-width: 100%;
+>>>>>>> feb70d0839c5da2119812e0b44b118dc2de74e3a
 }
 
 
@@ -71,13 +107,49 @@ h1 {
     justify-content: space-evenly;
     border: 2px solid white;
     box-shadow: 5px 10px 2px whitesmoke;
+<<<<<<< HEAD
+    margin-bottom: 50px;
+=======
     margin-bottom: 100px;
+>>>>>>> feb70d0839c5da2119812e0b44b118dc2de74e3a
 }
 
 
 /* Section 2 */
 .uwezo {
     display: flex;
+<<<<<<< HEAD
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.content{
+    margin-left: 50px;
+}
+
+.shop {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.ticks img {
+    height: 40px;
+}
+
+.tick {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+/* Section 3 */
+.search {
+    text-align: center;
+}
+
+.row {
+=======
     margin-bottom: 100px;
     justify-content: space-around;
 }
@@ -139,10 +211,108 @@ h1 {
 }
 
 .feedback {
+>>>>>>> feb70d0839c5da2119812e0b44b118dc2de74e3a
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
     margin: 50px;
+<<<<<<< HEAD
+}
+
+
+.more {
+    text-align: right;
+    margin-right: 50px;
+}
+
+
+/* section 4 */
+.customers {
+    margin-left: 600px;
+    margin-right: 600px;
+    list-style: none;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    box-shadow: 5px 10px 2px whitesmoke;
+    margin-bottom: 50px;
+}
+
+.rating {
+    color: #0000FF;
+    font-size: 40px;
+    text-align: justify;
+}
+
+.feedback {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.feeds {
+    box-sizing: border-box;
+    border: 2px solid white;
+    box-shadow: 5px 5px 2px whitesmoke;
+
+}
+
+.feedback img {
+    border-radius: 20px;
+    margin-top: 0px;
+}
+
+.feed {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+    padding-top: 50px;
+}
+
+.subscribe {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Section 5 */
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer {
+    background-color: #0000FF;
+    padding: 50px;
+}
+
+.footerstart {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.copyright {
+    text-align: center;
+}
+
+/* body styling */
+
+ul {
+    list-style: none;
+}
+
+input{
+    padding: 15px;
+}
+
+button {
+    background-color: #0000FF;
+=======
 }
 
 .feeds {
@@ -204,6 +374,7 @@ input{
 
 button {
     background-color: #0000FF;
+>>>>>>> feb70d0839c5da2119812e0b44b118dc2de74e3a
     color: white;
     padding: 15px;
 }
@@ -212,6 +383,16 @@ h2 {
     color: #0000FF;
     font-size: 30px;
 }
+<<<<<<< HEAD:assets/css/log.css
 .forpass{
     background-color: #2e74fc;
 }
+=======
+
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> feb70d0839c5da2119812e0b44b118dc2de74e3a
+>>>>>>> 269fbc7e229e1d875e40d4dbfe934a63d5b9bbf9:assets/css/style.css
