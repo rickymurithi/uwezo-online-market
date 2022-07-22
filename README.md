@@ -33,4 +33,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Email- harrison.itotia@student.moringaschool.com
 Email- erick.muriithi@student.moringaschool.com
 Email- gilbert.kipkemoi@student.moringaschool.com
-Email- 
+Email- sheillah.wangala@student.moringaschool.com
