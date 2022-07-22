@@ -173,7 +173,7 @@
     font-size: 12px;
 
 }
-#addItem {
+.tiny {
     background-color: blue;
     color: white;
     font-weight: bold;
